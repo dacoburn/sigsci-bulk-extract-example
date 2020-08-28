@@ -42,6 +42,8 @@ if delta_in_minutes is None or delta_in_minutes == "" or \
         type(delta_in_minutes) != int:
     delta_in_minutes = 10
 
+# Using lower here means we only have to do one check of the string against the
+# value instead of looking for variants like True or TRUE
 if pretty is not None and pretty != "" and pretty.lower() == "true":
     pretty = True
 else:
