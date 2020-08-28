@@ -19,4 +19,4 @@ The configuration options can either be specified in the script or as Environmen
 | delta_in_minutes | SIGSCI_DELTA_IN_MINUTES | `10` | The period of time you would like to pull data from in minutes |
 | pretty | SIGSCI_PRETTY | `false` | This option is whether to print the JSON on a single line or multi line but easier to read format |
 | single_object | SIGSCI_SINGLE_OBJECT | `false` | This option determines whether to print all of the requests as a single object in the format of `{"data": []}` or as a single request per line |
-| log_file | SIGSCI_LOG_FILE | `sigsci_results.json`
+| log_file | SIGSCI_LOG_FILE | `sigsci_results.json` | Log file name to write results out to |
