@@ -11,7 +11,7 @@ This script is based on the [Bulk Extract](https://docs.signalsciences.net/devel
 The configuration options can either be specified in the script or as Environment Variables.
 
 | Setting | Environment Variable Format | Default Value | Description |
-|---------|---------------|-------------|
+|---------|-----------------------------|---------------|-------------|
 | email | SIGSCI_EMAIL | `user@email.com` | email address/login name for the Signal Sciences Dashboard |
 | api_token | SIGSCI_API_TOKEN | `REPLACE_ME` | API Token associated with the e-mail for logging into the Signal Sciences Dashboard |
 | corp_name | SIGSCI_CORP_NAME | `REPLACE_ME` | Corp API name for the SigSci Corp you have access to |
